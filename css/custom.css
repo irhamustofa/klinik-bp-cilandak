@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.img-container-round {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.service-card {
+    overflow: hidden;
+    font-size: 1rem;
+    height: 100%;
+}
+    .service-card .service-image {
+        height: 200px;
+    }
+        .service-card .service-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    .service-card .service-content {
+        font-size: .9rem;
+    }
+
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+    .nav-pills .nav-link {
+        color: #9b9b9b;
+    }
+    .nav-pills .nav-link.active, 
+    .nav-pills .show>.nav-link {
+        color: #007bff;
+        background-color: transparent;
+        border-bottom: 2px solid #007bff;
+    }
